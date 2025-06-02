@@ -10,7 +10,7 @@ function App(){
     fp.get().then(result => {
       const visitorId = result.visitorId;
       console.log(visitorId); // Use this as a pseudo-unique ID
-    });
+    });  
   });
 
   // macaddress.all((err, all) => {
